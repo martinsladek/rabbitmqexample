@@ -23,6 +23,7 @@ class RabbitIntegrationTest {
     @Container
     static RabbitMQContainer rabbit = new RabbitMQContainer("rabbitmq:3.13-management");
 
+    @SuppressWarnings("unused")
     @DynamicPropertySource
     static void rabbitProperties(DynamicPropertyRegistry registry) {
         registry.add("spring.rabbitmq.host", rabbit::getHost);
