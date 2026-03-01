@@ -1,2 +1,1 @@
-@echo off
-start "spring-app" cmd /k "cd /d ..\.. && mvn spring-boot:run"
+@start "spring-app" cmd /k "cd /d ..\.. && mvn spring-boot:run"

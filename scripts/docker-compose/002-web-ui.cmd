@@ -1,1 +1,1 @@
-start http://localhost:15672
+@start http://localhost:15672

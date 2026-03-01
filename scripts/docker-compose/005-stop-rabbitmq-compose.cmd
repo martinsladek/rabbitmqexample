@@ -1,3 +1,4 @@
+@echo off
 @rem stop and remove containers
 @rem but keep volumes:
 @rem docker-compose down
